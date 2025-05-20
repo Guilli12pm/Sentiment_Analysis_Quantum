@@ -1,12 +1,12 @@
 # Sentiment Analysis with Quantum Circuits QRNNs
 
-This code is used to perform sentiment analysis given an input corpus, using Quantum Machine Learning (QML) Methods.
+This code is used to perform sentiment analysis given a dataset with sentences and a label representing a positive or negative sentiment, using Quantum Machine Learning (QML) Methods.
 
 QML is based on Parametrised Quantum Circuits (PQC) with multiple angle parameters that will be trained to obtain a specific measurement for a quantum circuit. 
 
 The specific QML method used in this project is the Quantum Recurrent Neural Network. 
 
-To generate text, there are three methods available:
+For the binary classification of the sentiment, there are three methods available:
 
 1) Free Fermionic Quantum circuit: a classically simulable quantum method using matchgates.
 2) Fully Quantum Circuit: a generic quantum circuit.
